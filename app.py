@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from a containerized app! Running inside Docker. 🚀"
+    return "Hello from a containerized app! Updated and tested via CI/CD."
 
 
 @app.route("/health")
